@@ -12,4 +12,4 @@ ng serve  (starts the Angular Developement server)
 
 # Start Mongo DB server
 
-npm run
+npm run start:server
