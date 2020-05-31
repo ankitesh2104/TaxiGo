@@ -1,0 +1,26 @@
+.page1{
+  background-image:url('src/assets/frontpage.jpg');
+  height:40em; background-size:cover; width:auto; height: 100%;
+  background-position:50% 20%;
+}
+.card{
+  /* border:1px dotted black; */
+  /* margin: 200px 475px; */
+  padding-top: 18%;
+  padding-left: 8%;
+  width: 410px;
+  text-align: center;
+
+}
+
+
+mat-form-field{
+  margin: 0 auto;
+  
+  width: 85%;
+}
+button{
+  width: 40%;
+}
+.Chips{
+}

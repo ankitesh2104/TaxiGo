@@ -1,0 +1,51 @@
+.signuppage{
+  background-image:url('src/assets/signup.jpg');
+  height:40em; background-size: cover; width:auto; height: 800px;
+  /* background-position:10% 15%; */
+}
+.xyz1{
+  height: 770px;
+}
+.abc1{
+  padding-top: 20%;
+}
+.card{
+  /* border:1px dotted black; */
+  /* margin: 100px 475px; */
+  width: 500px;
+  text-align: center;
+}
+
+mat-form-field{
+  width: 80%;
+}
+button{
+  width: 40%;
+}
+
+input[type = "file"]
+{
+  visibility: hidden;
+}
+.profilepic{
+  padding-left: 10%;
+}
+.Addfile
+{
+  display: block;
+  padding-right:10%;
+  padding-bottom: 0%;
+}
+.sgnup{
+  padding-bottom: 2%;
+}
+.image-preview
+{
+  height: 5rem;
+  margin: 1 rem 0;
+}
+
+.image-preview img
+{
+  height: 100%;
+}

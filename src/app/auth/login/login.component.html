@@ -1,0 +1,28 @@
+<div class="loginpage">
+  <div class="card">
+    <mat-card class= "xyz">
+      <div class = "abc">
+        <h2 style="color:black;">LOGIN</h2>
+        <form (submit)="onLogin(passdata)" #passdata="ngForm">
+          <mat-form-field appearance="outline">
+          <mat-label>email</mat-label>
+            <input matInput ngModel type="email" name="email" placeholder="JohnDoe@live.com" required>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+          <mat-label>password</mat-label>
+          <input matInput ngModel name="password" type="password" required>
+          </mat-form-field>
+
+
+          <button
+          mat-raised-button
+          color = "accent"
+          type="submit">Login</button>
+
+          <p>Dont have an account? SignUp  </p>
+        </form>
+      </div>
+    </mat-card>
+  </div>
+</div>

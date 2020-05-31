@@ -1,0 +1,31 @@
+.driver{
+  width: 80%;
+  margin: 0px 130px;
+  
+}
+.driver1{
+  padding-top: 5%;
+}
+.driver2{
+  /* background-color: gray;
+  height: 100%; */
+  background-image:url('src/assets/frontpage.jpg');
+  height: 100%;
+   /* height:40em; */
+  background-size: cover; width:auto; 
+  background-position:50% 20%;
+}
+.header{   /*title*/
+  margin-top: 10px;
+}
+
+.driver-image
+{
+  width: 100%;
+}
+
+.driver-image img
+{
+  width: 40%;
+  float: right;
+}

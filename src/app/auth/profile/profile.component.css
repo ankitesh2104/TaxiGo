@@ -1,0 +1,44 @@
+.Whole{     /*This is for all the mat-cards to be placed in a grid*/
+  display: grid;
+  row-gap: 5px;     /*This Specifies the gap between Matcards*/
+  padding: 5%;
+  /* background-image:url('src/assets/login.jpg');
+  height: 75%;
+  background-position:0% 15%; */
+  background-image:url('src/assets/frontpage.jpg');
+  height:40em; background-size:cover; width:auto; height: 76%;
+  background-position:50% 20%;
+}
+
+.driver{
+  position: relative;
+  width: 77.7%;
+  margin: 30px 150px;
+  /* border:1px dotted black; */
+  display: grid;
+}
+
+.driver1{
+  position: relative;
+  width: 80%;
+  margin: 30px 150px;
+  /* border:1px dotted black; */
+  display: grid;
+}
+
+.cardcontent{
+  margin-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: fit-content;
+}
+
+.disp-data
+{
+  width: 100%;
+}
+
+.disp-data img
+{
+  width: 16%;
+  float: right;
+}
